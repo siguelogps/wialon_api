@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const cors = require("cors");
 const multer = require("multer");
 const FormData = require("form-data");
-require("dotenv").config();
+
 
 const app = express();
 app.use(cors());
